@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Chess</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="header1">Chess</h1>
+        <hr>
+        <h4 class="hint">Click to learn more about each piece!</h4>
+        <div>
+            <label>King</label>
+            <br>
+            <br>
+            <span id="1" onclick="goKing()">
+                <img id="king1" src="white_king-removebg-preview.png">
+                <img id="king1" src="black_king-removebg-preview.png">
+            </span>
+        </div>
+        <br>
+        <div>
+            <label>Queen</label> 
+            <br>
+            <span id="2" onclick="goQueen()">
+                <img id="queen1" src="white_queen-removebg-preview.png">
+                <img id="queen1" src="black_queen-removebg-preview.png">
+            </span>
+        </div>
+        <br>
+        <div>
+            <label>Bishop</label> 
+            <br>
+            <span id="3" onclick="goBishop()">
+                <img id="bishop1" src="white_bishop-removebg-preview.png">
+                <img id="bishop1" src="black_bishop-removebg-preview.png">
+            </span>
+        </div>
+        <br>
+        <div>
+            <label>Knight</label>
+            <br> 
+            <span id="4" onclick="goKnight()">
+                <img id="knight1" src="white_knight-removebg-preview.png">
+                <img id="knight1" src="black_knight-removebg-preview.png">
+            </span>
+        </div>
+        <br>
+        <div>
+            <label>Rook</label> 
+            <br>
+            <span id="5" onclick="goRook()">
+                <img id="rook1" src="white_rook-removebg-preview.png">
+                <img id="rook1" src="black_rook-removebg-preview.png">
+            </span>
+        </div>
+        <br>
+        <div>
+            <label>Pond</label>
+            <br>
+            <span id="6" onclick="goPond()">
+                <img id="pond1" src="white_pond-removebg-preview.png">
+                <img id="pond1" src="black_pond-removebg-preview.png">
+            </span>
+        </div>
+        <br>
+        <button class="btn btn-danger nextPage" onclick="goBack()">Back</button>
+    </center>
+    <script src="page.js"></script>
+</body>
+
+</html>

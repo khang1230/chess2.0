@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Chess</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="header1">Chess</h1>
+        <hr>
+        <h4 class="hint">These are the 3 special moves</h4>
+        <button class="btn btn-warning nextPage" onclick="castle()">Castling</button>
+        <br>
+        <br>
+        <button class="btn btn-warning nextPage" onclick="passant()">En Passant</button>
+        <br>
+        <br>
+        <button class="btn btn-warning nextPage" onclick="promo()">Pawn Promotion</button>
+        <br>
+        <br>
+        <br>
+        <button class="btn btn-danger nextPage" onclick="goBack()">Back</button>
+    </center>
+    <script src="page.js"></script>
+</body>
+
+</html>

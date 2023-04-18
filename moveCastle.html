@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Chess</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="header1">Castling</h1>
+        <hr>
+        <h4 class="Info">
+            <p>Castling is the only time in chess that two pieces can move at once, and the only time a piece
+                other than the knight can move over another piece. To castle, simply move the king two spaces to the
+                left or
+                right and the rook moves next to the King depending on the side you are Castling.</p>
+
+            <p class="rules">Here are the rules for castling:</p>
+
+            <p>&#x2022; Your king can not have moved- Once your king moves, you can no longer castle, even if you move
+                the king
+                back
+                to the starting square. Many strategies involve forcing the opponent’s king to move just for this
+                reason.
+            </p>
+
+            <p>&#x2022; Your rook can not have moved- If you move your rook, you can’t castle on that side anymore. Both
+                the king
+                and the rook you are castling with can’t have moved.
+            </p>
+
+            <p>&#x2022; Your king can NOT be in check- Though castling often looks like an appealing escape, you can’t
+                castle while
+                you are in check! Once you are out of check, then you can castle. Unlike moving, being checked does not
+                remove the ability to castle later.
+            </p>
+
+            <p>&#x2022; Your king can not pass through check- If any square the king moves over or moves onto would put
+                you in
+                check, you can’t castle. You’ll have to get rid of that pesky attacking piece first!
+            </p>
+
+            <p>&#x2022; No pieces can be between the king and rook- All the spaces between the king and rook must be
+                empty. This
+                is part of why it’s so important to get your pieces out into the game as soon as possible!
+            </p>
+        </h4>
+        <br>
+
+        <h4 class="castleHead">Queenside Castling</h4>
+        <span>
+            <img class="setUp" src="queenside1.png">
+            <img class="setUp3" src="arrow.webp">
+            <img class="setUp" src="queenside2.png">
+        </span>
+        <h4 class="castleHead">
+            <p>When the color you want to castle is a the bottom of the board,</p>
+            <p>then the king moves 2 square to the left and the rook goes on its right</p>
+        </h4>
+        <br>
+        <br>
+        <h4 class="castleHead">Kingside Castling</h4>
+        <span>
+            <img class="setUp" src="kingside1.png">
+            <img class="setUp3" src="arrow.webp">
+            <img class="setUp" src="kingside2.png">
+        </span>
+        <h4 class="castleHead2">
+            <p>When the color you want to castle is a the bottom of the board,</p>
+            <p>then the king moves 2 square to the right and the rook goes on its left</p>
+        </h4>
+
+        <br>
+        <br>
+        <button class="nextPage btn btn-danger" onclick="specialBack()">Back</button>
+        <br>
+    </center>
+    <script src="page.js"></script>
+</body>
+
+</html>

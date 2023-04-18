@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Chess</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="header1">En Passant</h1>
+        <hr>
+        <h4 class="Info">
+            <p>Pawns can usually capture only pieces that are directly and diagonally in front of them on an adjacent
+                file. It moves to the captured piece's square and replaces it. With en passant, though, things are a
+                little different. This type of capture is the only one in chess where the capturing piece doesn't land
+                on the same square as its victim.
+
+                To perform this capture, you must take your opponent's pawn as if it had moved just one square. You move
+                your pawn diagonally to an adjacent square, one rank farther from where it had been, on the same file
+                where the enemy's pawn is, and remove the opponent's pawn from the board.</p>
+
+            <p class="rules">Here are the Requirements for En Pasant:</p>
+
+            <p>&#x2022; The capturing pawn must have advanced exactly three ranks to perform this move.
+            </p>
+
+            <p>&#x2022; The captured pawn must have moved two squares in one move, landing right next to the capturing
+                pawn.
+            </p>
+
+            <p>&#x2022; The en passant capture must be performed on the turn immediately after the pawn being captured
+                moves. If the player does not capture en passant on that turn, they no longer can do it later.
+            </p>
+        </h4>
+        <br>
+        <h3 class="set">Pawn Capturing</h3>
+        <div class="carousel slide" data-ride="carousel" id="carouselDiv">
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <center>
+                        <img class="setUp2" src="pawnCapture.png">
+
+                        <div class="carousel-content textHint">
+                            <p >A pawn usually captures this way</p>
+                        </div>
+
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="setUp" src="passant1.png">
+                        <div class="carousel-content textHint">
+                            <p>But in En Passant,</p>
+                            <p>The capturing pawn has to be 3 squres from its starting position</p>
+                            <p>& the opponent’s pawn has the move its pawn up 2 squares</p>
+                            <p>(Opponent's pawn has to move 2 squares not 1)</p>
+                        </div>
+
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="setUp" src="passant2.png">
+                        <div class="carousel-content textHint">
+                            <p>Then the capturing pawn(white) can capture the black pawn</p>
+                            <p>It will go to the rank behind with the pawn that just moved</p>
+                            <p>& capture the pawn</p>
+                        </div>
+
+                    </center>
+                </div>
+          
+            </div>
+            <a class="left carousel-control" href="#carouselDiv" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carouselDiv" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <br>
+        <br>
+        <button class="nextPage btn btn-danger" onclick="specialBack()">Back</button>
+        <br>
+    </center>
+    <script src="page.js"></script>
+</body>
+
+</html>

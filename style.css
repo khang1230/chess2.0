@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(Black, white);
+    margin-top: 200px;
+}
+
+.login{
+    background: rgba(255, 255, 255, 0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+.board1{
+    width: 60%;
+    height: 500px;
+    margin-left: 80px;
+}
+
+.header1{
+    color: white;
+    font-size: 50px;
+    margin-top: -120px;
+}
+
+.header2{
+    color: white;
+}
+
+.nextPage{
+    width: 20%;
+    font-size: 20px;
+}
+
+label{
+    font-size: 40px;
+    color: burlywood;
+    font-weight: 1000;
+}
+.hint{
+    color: floralwhite;
+}
+
+.setUp{
+    width: 300px;
+    height: 300px;
+}
+
+.textHint{
+    font-size: 20px;
+}
+
+.set{
+    color: white;
+}

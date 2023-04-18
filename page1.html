@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <title>Chess</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="header1">Chess</h1>
+        <hr>
+        <h3 class="set">How to Set Up</h3>
+        <div class="carousel slide" data-ride="carousel" id="carouselDiv">
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <center>
+                        <img class="setUp" src="board1.png">
+
+                        <div class="carousel-content textHint">
+                            <p>Start with the Board,</p>
+                            <p>Make sure the top-left and bottom-right corners are white squares</p>
+                        </div>
+
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="setUp" src="board2.png">
+                        <div class="carousel-content textHint">
+                            <p>Add the Ponds</p>
+                            <p>Place the Ronds on the second row</p>
+                        </div>
+
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="setUp" src="board3.png">
+                        <div class="carousel-content textHint">
+                            <p>Add the Rooks</p>
+                            <p>The Rooks will go in the corners</p>
+                        </div>
+
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="setUp" src="board4.png">
+                        <div class="carousel-content textHint">
+                            <p>Add the Knights(Horse)</p>
+                            <p>The Knights will go right next to the Rooks</p>
+                        </div>
+
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="setUp" src="board5.png">
+                        <div class="carousel-content textHint">
+                            <p>Add the Bishops</p>
+                            <p>The Bishops will go right next to the Knights</p>
+                        </div>
+
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="setUp" src="board6.png">
+                        <div class="carousel-content textHint">
+                            <p>Add the Queen</p>
+                            <p>The Queen will go on the square matching its color behind the ponds</p>
+                        </div>
+
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="setUp" src="board7.png">
+                        <div class="carousel-content textHint">
+                            <p>Add the King</p>
+                            <p>The King will go on the square that is opposite from its color (next to the queen)
+                            </p>
+                        </div>
+
+                    </center>
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#carouselDiv" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carouselDiv" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <br>
+        <br>
+        <h3 class="set">Tip!!!</h3>
+        <h4 class="castleHead">The eight vertical columns of the chess board are called files</h4>
+        <h4 class="castleHead">&</h4>
+        <h4 class="castleHead">The eight horizontal rows of the chess board are called ranks</h4>
+        <br>
+        <br>
+        <button class="btn btn-danger nextPage" onclick="goBack()">Back</button>
+    </center>
+    <script src="page.js"></script>
+</body>
+
+</html>

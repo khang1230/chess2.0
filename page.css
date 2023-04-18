@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(Black, white);
+    margin-top: 200px;
+}
+
+.login{
+    background: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+    float: none;
+}
+
+.board1{
+    width: 60%;
+    height: 500px;
+    margin-left: 80px;
+}
+
+.header1{
+    color: white;
+    font-size: 50px;
+    margin-top: -120px;
+}
+
+.header2{
+    color: white;
+}
+
+.nextPage{
+    width: 20%;
+}
+
+label{
+    font-size: 40px;
+    color: burlywood;
+    font-weight: 1000;
+}
+.hint{
+    color: floralwhite;
+}
+
+.Info{
+    margin-right: 180px;
+    margin-left: 180px;
+    color: azure;
+}
+
+.chessPiece{
+    width: 400px;
+    height: 400px;
+}
+
+.pondPiece{
+    width: 300px;
+    height: 300px;
+}
+
+.castle{
+    width: 600px;
+    height: 300px;
+}
+
+.castleHead{
+    color: white;
+}
+.castleHead2{
+    color: gray;
+}
+
+.textHint{
+    font-size: 20px;
+}
+
+.setUp2{
+    height: 300px;
+    width: 700px;
+}
+
+.setUp{
+    width: 300px;
+    height: 300px;
+}
+
+.setUp3{
+    width: 100px;
+    height: 50px;
+}
+
+.Info2{
+    margin-right: 180px;
+    margin-left: 180px;
+    color: gray;
+}

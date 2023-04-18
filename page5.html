@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>Chess</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="header1">Most Common Types of Endings</h1>
+        <hr>
+        <h3 class="castleHead">Checkmate</h3>
+        <h4 class="Info">
+            <p>When a king is attacked, it is called check. A checkmate (also known as "mate") occurs when a king is
+                placed in check and has no legal moves to escape. When a checkmate happens, the game ends immediately,
+                and the player who delivered the checkmate wins.
+            </p>
+        </h4>
+        <br>
+        <img class="setUp" src="mateCheck.png">
+        <br>
+        <br>
+        <h3 class="castleHead">Resignation</h3>
+        <h4 class="Info">
+            <p>Sometimes one of the players believes that he or she will be checkmated soon and resigns instead of
+                playing out the game. The opponent then wins the match.
+            </p>
+        </h4>
+        <br>
+        <br>
+        <h3 class="castleHead">Timeout</h3>
+        <h4 class="Info">
+            <p>Timeout is a painful way to lose a chess game. It does not matter how much of an advantage you have on
+                the board or whether you have checkmate in one move. If you run out of time, you automatically lose the
+                game if your opponent has the minimum material required to force a checkmate. If your opponent does not
+                have the minimum amount of material for checkmate and you run out of time, the game is a draw—even if
+                you were winning.
+            </p>
+        </h4>
+        <br>
+        <img class="setUp" src="zero.jpg">
+        <br>
+        <br>
+        <h3 class="castleHead">Stalmate</h3>
+        <h4 class="Info">
+            <p>When the opponent has no legal moves and it is their turn.
+            </p>
+        </h4>
+        <br>
+        <img class="setUp" src="mateStale.png">
+        <br>
+        <br>
+        <h3 class="castleHead">Insuffient Material</h3>
+        <h4 class="Info2">
+            <p>There are cases where one player has more pieces than the opponent toward the end of the game. However,
+                that is not always enough to win because some combinations of pieces cannot force checkmate.
+            </p>
+        </h4>
+        <br>
+        <img class="setUp" src="mate.png">
+        <br>
+        <br>
+        <button class="nextPage btn btn-danger" onclick="goBack()">Back</button>
+        <br>
+    </center>
+    <script src="page.js"></script>
+</body>
+
+</html>
